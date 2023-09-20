@@ -1,0 +1,27 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  width: 80vw;
+  min-width: 320px;
+  max-width: 600px;
+  padding: 4rem 1rem 3rem;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.title {
+  margin-bottom: 2.5rem;
+}
+
+.page-title {
+  margin: 0 0 0.5rem;
+}
+
+.page-subtitle {
+  display: block;
+  text-align: center;
+  opacity: 0.6;
+}

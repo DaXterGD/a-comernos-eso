@@ -1,0 +1,10 @@
+.login-form > input,
+.login-form > label,
+.login-form > button {
+  width: 80%;
+  max-width: 300px;
+}
+
+button {
+  margin: 2rem 0 0.5rem;
+}

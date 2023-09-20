@@ -1,0 +1,6 @@
+.register-form > input,
+.register-form > label,
+.register-form > button {
+  width: 80%;
+  max-width: 400px;
+}

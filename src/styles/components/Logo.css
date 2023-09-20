@@ -1,0 +1,10 @@
+.logo-container {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -50px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}

@@ -1,0 +1,17 @@
+.form-button {
+  display: block;
+  height: 38px;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+  border-radius: 30px;
+  background-color: #d8d8d8;
+  transition: filter 300ms ease;
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    filter: invert(1);
+  }
+}
