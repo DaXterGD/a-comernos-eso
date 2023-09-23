@@ -1,18 +1,26 @@
+/* 
+  Componente de ruta, en el se muestra el formulario de registro de usuarios
+*/
+// Importación de estilos
 import "../styles/pages/Register.css";
+// Importación de otros componentes de la aplicación
 import Form from "../components/Form";
 import burguer from "../assets/burguer.jpg";
 import Input from "../components/Input";
 import Button from "../components/Button";
+// Importación de otros componentes de la aplicación
 import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
+    // Definición de formulario de regitro
     <Form
       formClass="register-form"
       logoImg={burguer}
       title="Crea tu cuenta"
       subtitle="Para empezar a disfrutar"
     >
+      {/* Inputs del formulario */}
       <label htmlFor="name">Nombres</label>
       <Input
         type="text"
@@ -65,6 +73,7 @@ const Register = () => {
       />
       <Button text="Completar registro" />
       <hr />
+      {/* Enlaces para navegar a otras páginas de la aplicación */}
       <Link to="/">¿Ya tienes una cuenta? Inicia sesión.</Link>
       <Link to="/report">Reportar un error.</Link>
     </Form>
